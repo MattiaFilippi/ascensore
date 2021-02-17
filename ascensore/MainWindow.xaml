@@ -1,0 +1,19 @@
+﻿<Window x:Class="ascensore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ascensore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Right" Height="508" VerticalAlignment="Top" Width="794" Source="sfondo thread.png" RenderTransformOrigin="0.51,0.58" Margin="-10,0,9.6,-88"/>
+        <Image x:Name="personaggio" HorizontalAlignment="Left" Height="40" Margin="27,18,0,0" VerticalAlignment="Top" Width="18" Source="uomo.png"/>
+        <Image x:Name="personaggio2" HorizontalAlignment="Left" Height="67" Margin="10,63,0,0" VerticalAlignment="Top" Width="48" Source="uomo2.png"/>
+        <Image x:Name="elevatore" HorizontalAlignment="Left" Height="100" Margin="523,287,-629.4,0" VerticalAlignment="Top" Width="900" Source="elevator.png"/>
+
+    </Grid>
+
+
+
+</Window>
